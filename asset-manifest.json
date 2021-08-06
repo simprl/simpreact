@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.b602d000.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.eb35c55d.js",
-    "static/js/2.41199208.chunk.js": "/static/js/2.41199208.chunk.js",
-    "index.html": "/index.html",
-    "static/js/2.41199208.chunk.js.LICENSE.txt": "/static/js/2.41199208.chunk.js.LICENSE.txt"
+    "main.js": "/simpreact/static/js/main.b602d000.chunk.js",
+    "runtime-main.js": "/simpreact/static/js/runtime-main.41eb7035.js",
+    "static/js/2.41199208.chunk.js": "/simpreact/static/js/2.41199208.chunk.js",
+    "index.html": "/simpreact/index.html",
+    "static/js/2.41199208.chunk.js.LICENSE.txt": "/simpreact/static/js/2.41199208.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb35c55d.js",
+    "static/js/runtime-main.41eb7035.js",
     "static/js/2.41199208.chunk.js",
     "static/js/main.b602d000.chunk.js"
   ]
