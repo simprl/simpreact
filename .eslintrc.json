@@ -59,7 +59,7 @@
 		"prettier/prettier": [
 			"warn",
 			{
-				'endOfLine': 'auto',
+				"endOfLine": "auto",
 			}
 		],
 		"react/jsx-props-no-spreading": 0,
