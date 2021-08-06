@@ -56,7 +56,12 @@
 		"react/no-array-index-key": 0,
 		"react/display-name": 0,
 		"react/jsx-curly-brace-presence": 0,
-		"prettier/prettier": "warn",
+		"prettier/prettier": [
+			"warn",
+			{
+				'endOfLine': 'auto',
+			}
+		],
 		"react/jsx-props-no-spreading": 0,
 		"react/jsx-boolean-value": 0,
 		"react/prop-types": 0,
