@@ -1,0 +1,35 @@
+@import "colors.module";
+
+.level0 {
+	border-radius: var(--sr-border-radius, 8px);
+}
+.level1 {
+	border-width: 1px;
+	border-color: $primaryLight;
+	border-radius: var(--sr-border-radius, 8px);
+}
+.level2 {
+	border-width: 1px;
+	border-color: $primary;
+	border-radius: var(--sr-border-radius, 8px);
+}
+.level3 {
+	border-width: 1px;
+	border-color: $primaryDark;
+	border-radius: var(--sr-border-radius, 8px);
+}
+.radiusNo {
+	--sr-border-radius: 0;
+}
+.radiusTop {
+	--sr-border-radius: 8px 8px 0 0;
+}
+.radiusLeft {
+	--sr-border-radius: 8px 0 0 8px;
+}
+.radiusBottom {
+	--sr-border-radius: 0 0 8px 8px;
+}
+.radiusRight {
+	--sr-border-radius: 0 8px 8px 0;
+}

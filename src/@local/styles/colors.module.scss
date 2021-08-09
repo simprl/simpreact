@@ -1,0 +1,133 @@
+//Common
+$white: #FFFFFF;
+$transparent: transparent;
+
+// Primary
+$primary: #484838;
+$primaryLight: #747362;
+$primaryDark: #202112;
+$primaryInvert: #efebea;
+
+// Secondary
+$secondary: #c0ca33;
+$secondaryLight: #f5fd67;
+$secondaryDark: #8c9900;
+$secondaryInvert: #f9fbe7;
+
+// Success
+$success: #c0ca33;
+
+// Warning
+$warn: #9c27b0;
+
+// Danger
+$error: #d81b60;
+
+// Info
+$info: #3b00ed;
+
+.bgWhite {
+	--sr-background-color:$white;
+	background-color: $white;
+}
+.bg-transparent {
+	--sr-background-color: transparent;
+	background-color: transparent;
+}
+
+.white {
+	--sr-color: $white;
+	color: $white;
+}
+
+// Primary
+.primary {
+	--sr-color: $primary;
+	color: $primary;
+}
+.primaryLight {
+	--sr-color: $primaryLight;
+	color: $primaryLight;
+}
+.primaryDark {
+	--sr-color: $primaryDark;
+	color: $primaryDark;
+}
+.primaryInvert {
+	--sr-color: $primaryInvert;
+	color: $primaryInvert;
+}
+.secondary {
+	--sr-color: $secondary;
+	color: $secondary;
+}
+.secondaryLight {
+	--sr-color: $secondaryLight;
+	color: $secondaryLight;
+}
+.secondaryDark {
+	--sr-color: $secondaryDark;
+	color: $secondaryDark;
+}
+.secondaryDark {
+	--sr-color: $secondaryInvert;
+	color: $secondaryInvert;
+}
+.success {
+	--sr-color: $success;
+	color: $success;
+}
+.warn {
+	--sr-color: $warn;
+	color: $warn;
+}
+.error {
+	--sr-color: $error;
+	color: $error;
+}
+.info {
+	--sr-color: $info;
+	color: $info;
+}
+
+// bg
+.bgPrimary {
+	--sr-bg-color:$primary;
+	background-color: $primary;
+}
+.bgPrimaryLight {
+	--sr-bg-color:$primaryLight;
+	background-color: $primaryLight;
+}
+.bgPrimaryDark {
+	--sr-bg-color:$primaryDark;
+	background-color: $primaryDark;
+}
+.bgSecondary {
+	--sr-bg-color:$secondary;
+	background-color: $secondary;
+}
+.bgSecondaryLight {
+	--sr-bg-color:$secondaryLight;
+	background-color: $secondaryLight;
+}
+.bgSecondaryDark {
+	--sr-bg-color:$secondaryDark;
+	background-color: $secondaryDark;
+}
+.bgSuccess {
+	--sr-bg-color:$success;
+	background-color: $success;
+}
+.bgWarn {
+	--sr-bg-color:$warn;
+	background-color: $warn;
+}
+.bgError {
+	--sr-bg-color:$error;
+	background-color: $error;
+}
+.bgInfo {
+	--sr-color: $info;
+	color: $info;
+}

@@ -1,0 +1,26 @@
+.col {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	flex: 0 0 auto;
+}
+.colShrink {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+.rowShrink {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 auto;
+}
+.rowWrap {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+}

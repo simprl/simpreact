@@ -1,0 +1,90 @@
+.label-input{
+	border: 1px solid rgba(168, 168, 168, 0.2);
+	box-sizing: border-box;
+	padding: 6px 0;
+
+	.eye-text{
+		margin-right: 15px;
+		margin-top: -6px;
+	}
+
+	.eye-password{
+		margin-right: 15px;
+		margin-top: -6px;
+		position: relative;
+		&:before{
+			content: '';
+			width: 2px;
+			height: 20px;
+			position: absolute;
+			display: block;
+			background: #A8A8A8;
+			top: 0;
+			left: 9px;
+			pointer-events: none;
+			z-index: 9999;
+			transform: rotate(
+					45deg
+			);
+		}
+	}
+
+	.Label__text{
+		padding: 0 16px;
+		color: #A8A8A8;
+		opacity: 0.5;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 15px;
+		letter-spacing: 0.06em;
+	}
+	.Label__errors{
+		padding: 0 16px;
+		color: #FCFF71;
+		opacity: 0.5;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 15px;
+		letter-spacing: 0.06em;
+	}
+
+	.Input {
+		display: flex;
+		flex-direction: row;
+
+		.icons{
+			flex: 0 0 auto;
+			svg {
+				width: 17px;
+				height: 14px;
+				margin-right: 15px;
+				position: relative;
+				top: -5px;
+			}
+		}
+
+		input {
+			height: 26px;
+			display: flex;
+			flex: 1 1 auto;
+			width: 100%;
+			outline: none;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 26px;
+			color: #A8A8A8;
+			padding: 0 16px;
+			background: transparent;
+			font-family: 'source-code-pro', Roboto, sans-serif;
+			border: none;
+
+		}
+	}
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+}

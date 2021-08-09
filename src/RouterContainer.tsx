@@ -66,6 +66,6 @@ export const RouterContainer: React.FC = memo(() => {
 			dispatch(actions.set(COMMON_SPACES.PATH_PARAMS, params));
 		}
 	}, [redirect, params]);
-	console.log({ redirect, params, node });
+
 	return node;
 });

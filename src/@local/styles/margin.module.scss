@@ -1,0 +1,109 @@
+$small: 4px;
+$medium: 8px;
+$large: 16px;
+$extra: 24px;
+
+.small {
+	margin: $small;
+}
+.medium {
+	margin: $medium;
+}
+.large {
+	margin: $large;
+}
+.extra {
+	margin: $extra;
+}
+
+.topS {
+	margin-top: $small;
+}
+.topM {
+	margin-top: $medium;
+}
+.topL {
+	margin-top: $large;
+}
+.topE {
+	margin-top: $extra;
+}
+
+
+.topS_negative {
+	margin-top: -$small;
+}
+.topM_negative {
+	margin-top: -$medium;
+}
+
+.leftS {
+	margin-left: $small;
+}
+.leftM {
+	margin-left: $medium;
+}
+.leftL {
+	margin-left: $large;
+}
+.leftE {
+	margin-left: $extra;
+}
+
+.hS {
+	margin-left: $small;
+	margin-right: $small;
+}
+.hM {
+	margin-left: $medium;
+	margin-right: $medium;
+}
+.hL {
+	margin-left: $large;
+	margin-right: $large;
+}
+.hE {
+	margin-left: $extra;
+	margin-right: $extra;
+}
+
+/* horizontal Reverse Small */
+.hRS {
+	margin-left: -$small;
+	margin-right: -$small;
+}
+
+/* horizontal Reverse Medium */
+.hRM {
+	margin-left: -$medium;
+	margin-right: -$medium;
+}
+
+/* horizontal Reverse Large */
+.hRL {
+	margin-left: -$large;
+	margin-right: -$large;
+}
+
+/* horizontal Reverse Extra */
+.hRE {
+	margin-left: -$extra;
+	margin-right: -$extra;
+}
+
+.vS {
+	margin-top: $small;
+	margin-bottom: $small;
+}
+.vM {
+	margin-top: $medium;
+	margin-bottom: $medium;
+}
+.vL {
+	margin-top: $large;
+	margin-bottom: $large;
+}
+.vE {
+	margin-top: $extra;
+	margin-bottom: $extra;
+}

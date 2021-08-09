@@ -1,17 +1,20 @@
-import { LINKS } from '@local/constants';
+import { LINKS, ROUTE_PATH_KEYS } from '@local/constants';
+import { layout as homeLayout } from './home/layout';
+import { layout as aboutLayout } from './about/layout';
 
 export const getRoutes = () =>
 	({
 		index: 'home',
 		links: {
-			[LINKS.ROOT]: () => `/`,
+			[LINKS.ROOT]: (page) => `/${page}`,
 		},
+		childKey: ROUTE_PATH_KEYS.PAGE,
 		children: {
 			home: {
-				layout: () => 'home',
+				layout: homeLayout,
 			},
 			about: {
-				layout: () => 'about',
+				layout: aboutLayout,
 			},
 		},
 	} as const);
