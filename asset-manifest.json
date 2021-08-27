@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simpreact/static/css/main.4a24f026.chunk.css",
-    "main.js": "/simpreact/static/js/main.4d29470e.chunk.js",
+    "main.css": "/simpreact/static/css/main.bb8958d5.chunk.css",
+    "main.js": "/simpreact/static/js/main.1c0ac9c1.chunk.js",
     "runtime-main.js": "/simpreact/static/js/runtime-main.41eb7035.js",
-    "static/js/2.da1def04.chunk.js": "/simpreact/static/js/2.da1def04.chunk.js",
+    "static/js/2.f95fdf0b.chunk.js": "/simpreact/static/js/2.f95fdf0b.chunk.js",
     "index.html": "/simpreact/index.html",
-    "static/js/2.da1def04.chunk.js.LICENSE.txt": "/simpreact/static/js/2.da1def04.chunk.js.LICENSE.txt"
+    "static/js/2.f95fdf0b.chunk.js.LICENSE.txt": "/simpreact/static/js/2.f95fdf0b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.41eb7035.js",
-    "static/js/2.da1def04.chunk.js",
-    "static/css/main.4a24f026.chunk.css",
-    "static/js/main.4d29470e.chunk.js"
+    "static/js/2.f95fdf0b.chunk.js",
+    "static/css/main.bb8958d5.chunk.css",
+    "static/js/main.1c0ac9c1.chunk.js"
   ]
 }
