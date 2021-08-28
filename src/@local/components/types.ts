@@ -9,7 +9,7 @@ export interface ChangeEventType<TValue> {
 	target: TargetType<TValue>;
 }
 
-export interface InteractiveProps<TValue> {
+export interface InteractiveProps<TValue, TTheme = undefined> {
 	children?: React.ReactNode;
 	name?: string;
 	value?: TValue;
@@ -17,9 +17,10 @@ export interface InteractiveProps<TValue> {
 	className?: string;
 	errors?: TErrors;
 	submitted?: boolean;
+	theme?: TTheme;
 }
 
-export interface ButtonProps<TValue> extends InteractiveProps<TValue>{
+export interface ButtonProps<TValue, TTheme> extends InteractiveProps<TValue, TTheme>{
 	activeValue?: TValue;
 }
 

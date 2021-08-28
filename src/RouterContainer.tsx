@@ -6,12 +6,6 @@ import { useRoute } from '@local/route';
 
 const HOMEPAGE = '';
 
-function flatten(arr) {
-	return arr.reduce(function (flat, toFlatten) {
-		return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
-	}, []);
-}
-
 const getLinks = (routes, path = ['']) => [
 	...(routes?.links ? Object.entries(routes.links).map(([key, link]) => ({ key, path, link })) : []),
 	...(routes?.children
@@ -22,7 +16,9 @@ const getLinks = (routes, path = ['']) => [
 ];
 
 const getLinksObj = (routes, links) => {
-	const linksArray = flatten(getLinks(routes)).map(({ key, link, path }) => [key, { link, path }]);
+	const linksArray = getLinks(routes)
+		.flat(Infinity)
+		.map(({ key, link, path }) => [key, { link, path }]);
 
 	const incorrectLinks = linksArray.filter(([key]) => !links.includes(key));
 	if (incorrectLinks.length > 0) console.error(`Incorrect Links ${JSON.stringify(incorrectLinks, null, 2)}`);

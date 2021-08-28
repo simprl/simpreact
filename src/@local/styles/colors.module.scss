@@ -26,6 +26,22 @@ $error: #d81b60;
 // Info
 $info: #3b00ed;
 
+body {
+	--sr-color-white: #FFFFFF;
+	--sr-color-primary: #484838;
+	--sr-color-primaryLight: #747362;
+	--sr-color-primaryDark: #202112;
+	--sr-color-primaryInvert: #efebea;
+	--sr-color-secondary: #c0ca33;
+	--sr-color-secondaryLight: #f5fd67;
+	--sr-color-secondaryDark: #8c9900;
+	--sr-color-secondaryInvert: #f9fbe7;
+	--sr-color-success: #c0ca33;
+	--sr-color-warn: #9c27b0;
+	--sr-color-error: #d81b60;
+	--sr-color-info: #3b00ed;
+}
+
 .bgWhite {
 	--sr-background-color:$white;
 	background-color: $white;

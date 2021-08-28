@@ -1,0 +1,14 @@
+.button{
+	color: var(--sr-color-primaryInvert);
+	background: var(--sr-color-primary);
+	border: none;
+	border-radius: 3px;
+}
+.active{
+	color: var(--sr-color-primaryInvert);
+	background: var(--sr-color-primaryLight);
+}
+.disabled{
+	color: var(--sr-color-primaryInvert);
+	background: var(--sr-color-primary);
+}
