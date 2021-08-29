@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simpreact/static/css/main.1ac0d9dd.chunk.css",
-    "main.js": "/simpreact/static/js/main.5e5d1b37.chunk.js",
+    "main.js": "/simpreact/static/js/main.39e87cde.chunk.js",
     "runtime-main.js": "/simpreact/static/js/runtime-main.41eb7035.js",
     "static/js/2.95dd487c.chunk.js": "/simpreact/static/js/2.95dd487c.chunk.js",
     "index.html": "/simpreact/index.html",
@@ -11,6 +11,6 @@
     "static/js/runtime-main.41eb7035.js",
     "static/js/2.95dd487c.chunk.js",
     "static/css/main.1ac0d9dd.chunk.css",
-    "static/js/main.5e5d1b37.chunk.js"
+    "static/js/main.39e87cde.chunk.js"
   ]
 }
