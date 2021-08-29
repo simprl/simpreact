@@ -4,7 +4,9 @@ import { useAppStore, routeActions, actions } from '@local/store';
 import { getRoutes } from 'pages/getRoutes';
 import { useRoute } from '@local/route';
 
-const HOMEPAGE = '';
+const m = (process.env.REACT_APP_HOMEPAGE ?? '').match(/^(http|https):\/\/.*?\/(.*?)$/);
+const HOMEPAGE = m ? `/${m[2]}/` : '';
+console.log(`HOMEPAGE ${HOMEPAGE}`);
 
 const getLinks = (routes, path = ['']) => [
 	...(routes?.links ? Object.entries(routes.links).map(([key, link]) => ({ key, path, link })) : []),
@@ -60,6 +62,12 @@ export const RouterContainer: React.FC = memo(() => {
 	useEffect(() => {
 		if (!redirect) {
 			dispatch(actions.set(COMMON_SPACES.PATH_PARAMS, params));
+			const { ga } = window as any;
+			if (ga && history?.location?.pathname) {
+				ga('set', 'page', history.location.pathname);
+				ga('send', 'pageview');
+				console.log(`ga set page: ${history.location.pathname}`);
+			}
 		}
 	}, [redirect, params]);
 

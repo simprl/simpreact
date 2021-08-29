@@ -2,7 +2,7 @@
   "name": "simpreact",
   "version": "0.1.0",
   "description": "dynamicReducer - reducer for Redux in which you can add or remove child reducers",
-  "homepage": "/simpreact",
+  "homepage": "https://simprl.github.io/simpreact",
   "dependencies": {
     "@simprl/dynamic-reducer": "1.0.1",
     "classnames": "^2.3.1",

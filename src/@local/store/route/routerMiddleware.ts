@@ -1,7 +1,8 @@
 import { Middleware } from 'redux';
 import { ActionNames } from './ActionNames';
 
-const HOMEPAGE: string | undefined = '';
+const m = (process.env.REACT_APP_HOMEPAGE ?? '').match(/^(http|https):\/\/.*?\/(.*?)$/);
+const HOMEPAGE = m ? `/${m[2]}/` : '';
 
 const pathToString = (path) => path.map((el, i) => (i === 0 ? '' : el === null || el === '' ? '_' : el)).join('/');
 
