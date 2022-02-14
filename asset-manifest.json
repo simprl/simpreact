@@ -1,16 +1,11 @@
 {
   "files": {
-    "main.css": "/simpreact/static/css/main.1ac0d9dd.chunk.css",
-    "main.js": "/simpreact/static/js/main.39e87cde.chunk.js",
-    "runtime-main.js": "/simpreact/static/js/runtime-main.41eb7035.js",
-    "static/js/2.95dd487c.chunk.js": "/simpreact/static/js/2.95dd487c.chunk.js",
-    "index.html": "/simpreact/index.html",
-    "static/js/2.95dd487c.chunk.js.LICENSE.txt": "/simpreact/static/js/2.95dd487c.chunk.js.LICENSE.txt"
+    "main.css": "/simpreact/static/css/main.44a89369.css",
+    "main.js": "/simpreact/static/js/main.22290796.js",
+    "index.html": "/simpreact/index.html"
   },
   "entrypoints": [
-    "static/js/runtime-main.41eb7035.js",
-    "static/js/2.95dd487c.chunk.js",
-    "static/css/main.1ac0d9dd.chunk.css",
-    "static/js/main.39e87cde.chunk.js"
+    "static/css/main.44a89369.css",
+    "static/js/main.22290796.js"
   ]
 }
